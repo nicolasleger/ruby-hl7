@@ -2,6 +2,8 @@ branches:
   only:
     - master
 language: ruby
+before_install:
+  - gem install bundler --version 1.17.2
 matrix:
   allow_failures:
     - rvm:
