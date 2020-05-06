@@ -7,6 +7,7 @@ matrix:
     - rvm:
       - ruby-head
       - 1.9.3
+      - 1.8.6
 sudo: required
 dist: trusty
 addons:
@@ -14,7 +15,12 @@ addons:
     packages:
       - haveged
 rvm:
+  - 2.7
+  - 2.6
+  - 2.5
   - 2.4
   - 2.3
   - 2.2
+  - 2.1
+  - 2.0
   - jruby-9.1.5.0
